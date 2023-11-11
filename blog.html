@@ -1,52 +1,223 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <link rel="icon" href="images/favicon.png" type="image/gif" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <title>Kwashy Fashion</title>
 
-  <title>Healet</title>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      .innerpage_header {
+        background-color: #8b4513; /* Use your desired brown color for the header background */
+      }
 
-</head>
+      .navbar-brand span {
+        color: white;
+      }
 
-<body>
+      .navbar-nav .nav-link {
+        color: white !important; /* Use !important to override Bootstrap styles */
+      }
 
-  <!-- header section strats -->
-  <header class="header_section innerpage_header">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="index.html">
-          <span>
-            Healet
-          </span>
-        </a>
-        <div class="" id="">
+      .btn-outline-primary {
+        color: #8b4513;
+        border-color: #8b4513;
+      }
 
-          <div class="custom_menu-btn">
-            <button onclick="openNav()">
-              <span class="s-1"> </span>
-              <span class="s-2"> </span>
-              <span class="s-3"> </span>
-            </button>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
+      .btn-outline-primary:hover {
+        color: white;
+        background-color: #8b4513;
+        border-color: #8b4513;
+      }
+
+      .btn-primary {
+        background-color: #8b4513;
+        border-color: #8b4513;
+      }
+
+      .btn-primary:hover {
+        background-color: #5a2916; /* Use a slightly darker shade for hover effect */
+        border-color: #5a2916;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header section strats -->
+    <header class="header_section innerpage_header fixed-top">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="path/to/logo.png" />
+            <span> Kwashy Fashion </span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars fa-inverse"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="login.html" class="btn btn-outline-primary">Login</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="signup.html"
+                  class="btn btn-primary ml-md-2 mb-2 mb-md-0"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- blog section -->
+
+    <section class="blog_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Latest From Blog</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/b1.jpg" alt="" />
+                <h4 class="blog_date">
+                  14 <br />
+                  October
+                </h4>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Embracing Elegance: A Journey into Kwashy Fashion's Signature
+                  Style
+                </h5>
+                <p>
+                  Join us on a captivating journey as we explore the inspiration
+                  and artistry behind our signature jewelry pieces. From the
+                  vibrant colors of Indian traditions to the modern allure of
+                  Dubai, each creation is a story waiting to be told. Immerse
+                  yourself in the world of Kwashy Fashion and discover the
+                  unique blend of culture and sophistication in every design.
+                </p>
+                <a href="#"> Read More </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/b2.jpg" alt="" />
+                <h4 class="blog_date">
+                  14 <br />
+                  November
+                </h4>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  The Craftsmanship Chronicles: Behind Kwashy Fashion's Artistic
+                  Brilliance
+                </h5>
+                <p>
+                  Dive into the world of Kwashy Fashion and uncover the secrets
+                  of our artistic brilliance. From the skilled hands of our
+                  craftsmen to the cultural inspirations woven into each piece,
+                  we invite you to explore the rich tapestry of creativity that
+                  defines our jewelry. Join us as we share the stories and
+                  passion embedded in every detail which shows our authentic
+                  traditions.
+                </p>
+                <a href="#"> Read More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end blog section -->
+
+    <!-- info section -->
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row info_form_social_row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="email" placeholder="Enter your email" />
+                <button>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="social_box">
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-tiktok" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row info_main_row">
+          <div class="col-md-6 col-lg-3">
+            <div class="info_links">
+              <h4>Menu</h4>
+              <div class="info_links_menu">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="shop.html">Shop</a>
@@ -54,200 +225,75 @@
               </div>
             </div>
           </div>
-
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- end header section -->
-
-  <!-- blog section -->
-
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Latest From Blog
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b1.jpg" alt="">
-              <h4 class="blog_date">
-                14 <br>
-                July
-              </h4>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Look even slightly believable. If you are
-              </h5>
-              <p>
-                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-              </p>
-              <a href="">
-                Read More
-              </a>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_insta">
+              <h4>Instagram</h4>
+              <div class="insta_box">
+                <div class="img-box">
+                  <img src="images/p1.png" alt="" />
+                </div>
+                <p>Insta Caption</p>
+              </div>
+              <div class="insta_box">
+                <div class="img-box">
+                  <img src="images/p2.png" alt="" />
+                </div>
+                <p>Insta Caption</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b2.jpg" alt="">
-              <h4 class="blog_date">
-                15 <br>
-                July
-              </h4>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Anything embarrassing hidden in the middle
-              </h5>
-              <p>
-                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+          <div class="col-md-6 col-lg-3">
+            <div class="info_detail">
+              <h4>Address</h4>
+              <p class="mb-0">
+                Meena Bazaar, Al Zarooni Bldg - Shop no 15 - Near Veg World
+                Restaurant - Bur Dubai - Dubai - United Arab Emirates
               </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h4>Contact Us</h4>
+            <div class="info_contact">
               <a href="">
-                Read More
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span> Location </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span> Call +971 52 391 3196 </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope"></i>
+                <span> kwashyfashion@gmail.com info@kwashyfashion.com </span>
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- end blog section -->
+    <!-- end info_section -->
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="row info_form_social_row">
-        <div class="col-md-8 col-lg-9">
-          <div class="info_form">
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3">
-
-          <div class="social_box">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/" class="text-danger"
+            >Kwashy Fashion LLC</a
+          >
+          | Design by
+          <a href="http://lacky.anacky.com/" class="text-danger">Lacky Singh</a>
+        </p>
       </div>
-      <div class="row info_main_row">
-        <div class="col-md-6 col-lg-3">
-          <div class="info_links">
-            <h4>
-              Menu
-            </h4>
-            <div class="info_links_menu">
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="shop.html">Shop</a>
-              <a href="blog.html">Blog</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_insta">
-            <h4>
-              Instagram
-            </h4>
-            <div class="insta_box">
-              <div class="img-box">
-                <img src="images/p1.png" alt="">
-              </div>
-              <p>
-                long established fact that a reader
-              </p>
-            </div>
-            <div class="insta_box">
-              <div class="img-box">
-                <img src="images/p2.png" alt="">
-              </div>
-              <p>
-                long established fact that a reader
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_detail">
-            <h4>
-              About Us
-            </h4>
-            <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <h4>
-            Contact Us
-          </h4>
-          <div class="info_contact">
-            <a href="">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Location
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call +01 1234567890
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-envelope"></i>
-              <span>
-                demo@gmail.com
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
+    <!-- footer section -->
 
-  <!-- end info_section -->
-
-
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
-
-
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-
-</body>
-
+    <!-- jQery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+  </body>
 </html>
