@@ -963,4 +963,37 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.innerpage_header {
+  background-color: #fd9c6b; /* Use your desired brown color for the header background */
+}
+
+.navbar-brand span {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Use !important to override Bootstrap styles */
+}
+
+.btn-outline-primary {
+  color: #fd9c6b;
+  border-color: #fd9c6b;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #fd9c6b;
+  border-color: #fd9c6b;
+}
+
+.btn-primary {
+  background-color: #fd9c6b;
+  border-color: #fd9c6b;
+}
+
+.btn-primary:hover {
+  background-color: #5a2916; /* Use a slightly darker shade for hover effect */
+  border-color: #5a2916;
+}
 /*# sourceMappingURL=style.css.map */
